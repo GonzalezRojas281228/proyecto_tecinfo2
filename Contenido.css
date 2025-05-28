@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f9f6;
+    color: #333;
+}
+ 
+header {
+    background: #00796b;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+ 
+h1 {
+    margin-bottom: 0.3em;
+}
+ 
+main {
+    padding: 2em;
+}
+ 
+.infografia {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+ 
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    max-width: 300px;
+    text-align: center;
+    padding: 1em;
+    transition: transform 0.3s ease;
+}
+ 
+.card:hover {
+    transform: scale(1.03);
+}
+ 
+.card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+ 
+.llamado {
+    margin-top: 3em;
+    background-color: #c8e6c9;
+    padding: 2em;
+    border-radius: 10px;
+    text-align: center;
+}
+ 
+.llamado ul {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0;
+}
+ 
+.llamado li {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+ 
+button {
+    background-color: #388e3c;
+    color: white;
+    padding: 1em 2em;
+    border: none;
+    font-size: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+ 
+button:hover {
+    background-color: #2e7d32;
+}
+ 
+#mensaje-compromiso {
+    margin-top: 1em;
+    font-weight: bold;
+    color: #1b5e20;
+}
+ 
+footer {
+    background: #004d40;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 3em;
+}
