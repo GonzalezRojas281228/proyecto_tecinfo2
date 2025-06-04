@@ -3,97 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>¿Quiénes Somos? - Cuidando el Medio Ambiente</title>
+    <title>Somos - Cuidado del Medio Ambiente</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
+            margin: 20px;
+            padding: 20px;
             background-color: #f4f4f4;
             color: #333;
             line-height: 1.6;
         }
         .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px 0;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #77aaff 3px solid;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            padding-bottom: 10px;
-        }
-        .content-section {
+            max-width: 800px;
+            margin: 0 auto;
             background: #fff;
-            padding: 20px;
-            margin-top: 20px;
+            padding: 30px;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        .content-section h2 {
-            color: #0056b3;
+        h1 {
+            color: #28a745; /* Verde para el título */
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
             margin-bottom: 15px;
         }
-        .presentation-embed {
+        .powerpoint-section {
             margin-top: 30px;
-            text-align: center;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
         }
-        .presentation-embed iframe {
+        .powerpoint-section h2 {
+            color: #007bff; /* Azul para el subtítulo */
+            margin-bottom: 15px;
+        }
+        .powerpoint-embed {
             width: 100%;
-            height: 600px; /* Puedes ajustar la altura según tus necesidades */
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #333;
-            color: #fff;
-            margin-top: 30px;
-            border-top: #77aaff 3px solid;
+            height: 500px; /* Ajusta la altura según sea necesario */
+            border: none;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>¿Quiénes Somos?</h1>
-    </header>
-
     <div class="container">
-        <section class="content-section">
-            <h2>Nuestra Misión</h2>
-            <p>Somos alumnos de bachillerato de cuarto semestre que busca comunicar sobre la importancia de cuidar al medio ambiente.</p>
-            <p>Nos dedicamos a generar conciencia y promover acciones responsables para un futuro sostenible.</p>
-            <p>Creemos firmemente en el poder de la educación para transformar nuestro entorno.</p>
-            <p>A través de nuestras iniciativas, esperamos inspirar a otros a unirse a esta causa vital.</p>
-            <p>Juntos, podemos marcar una diferencia significativa en la protección de nuestro planeta.</p>
-        </section>
+        <h1>¿Quiénes Somos?</h1>
+        <p>Somos un grupo de estudiantes de bachillerato, cursando el cuarto semestre, comprometidos con una causa fundamental: la **comunicación sobre la importancia de cuidar el medio ambiente**.</p>
+        <p>Nuestra misión es generar conciencia y promover acciones que contribuyan a la conservación de nuestro planeta.</p>
+        <p>A través de la información y la educación, buscamos inspirar a otros a adoptar prácticas sostenibles en su día a día.</p>
+        <p>Creemos firmemente que el futuro de nuestro entorno depende de las decisiones que tomemos hoy.</p>
+        <p>Juntos, podemos hacer una diferencia significativa.</p>
 
-        <section class="content-section presentation-embed">
-            <h2>Nuestra Presentación (PowerPoint)</h2>
-            <p>Para ver nuestra presentación sobre el cuidado del medio ambiente, por favor, carga tu archivo de PowerPoint en un servicio como OneDrive o Google Drive y pega el código de inserción (iframe) aquí.</p>
-            <p><strong>Instrucciones para insertar un archivo de PowerPoint (ej. desde Google Drive):</strong></p>
-            <ol>
-                <li>Sube tu archivo de PowerPoint (.pptx) a Google Drive (o OneDrive).</li>
-                <li>Una vez subido, abre el archivo en el visor de Google Drive.</li>
-                <li>Haz clic en "Archivo" > "Compartir" > "Insertar elemento".</li>
-                <li>Copia el código HTML que te proporciona (será una etiqueta `<iframe>`).</li>
-                <li><strong>Pega ese código `<iframe>` justo debajo de estas instrucciones, reemplazando el comentario ``.</strong></li>
-            </ol>
-
-            </section>
+        <div class="powerpoint-section">
+            <h2>Nuestra Presentación</h2>
+            <p>Aquí puedes ver una presentación de PowerPoint con más detalles sobre nuestro proyecto y la importancia del cuidado ambiental:</p>
+            <iframe src="https://myuvmedu-my.sharepoint.com/:p:/g/personal/a100239017_my_uvm_edu_mx/EUZYTnLj1dNGo1Fu9RdV7KYBAe0vxjltphnCxBPOA88mYQ?e=AvG9SZ" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" class="powerpoint-embed"></iframe>
+            <p>Si la presentación no se carga, asegúrate de haber subido tu archivo de PowerPoint a un servicio que genere un código de inserción y haberlo reemplazado en el `src` del `iframe`.</p>
+        </div>
     </div>
-
-    <footer>
-        <p>&copy; 2025 Alumnos de Bachillerato - Cuidando el Medio Ambiente</p>
-    </footer>
 </body>
 </html>
